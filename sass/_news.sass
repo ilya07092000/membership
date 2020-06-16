@@ -1,0 +1,147 @@
+.news
+    font-family: 'Ubuntu', sans-serif
+    background-color: #e8e9ea
+    padding: 9rem 0 7.6rem 0
+    
+.news__header   
+    font-size: 3.2rem
+    font-weight: 300
+    text-align: center
+    padding: 0rem 0 4rem 0
+
+.news__left__icon
+    position: relative
+
+.news__left__img
+    max-width: 100%
+    height: auto
+    display: block
+    margin: 0 auto
+    
+
+.news__btn
+    font-size: 10px
+    font-weight: 700
+    text-transform: uppercase
+    color: #fff
+    border-radius: 13px
+    background-color: #8d7431
+    min-width: 55px
+    padding: 0.5rem 1rem
+    display: inline-block
+    position: absolute
+    top: 10px
+    left: 10px
+    text-decoration: none
+    text-align: center
+
+.news__inner
+    display: flex
+    flex-wrap: wrap
+
+.news__left,
+.news__right
+    width: 50%
+
+
+.news__right
+    display: flex
+    flex-wrap: wrap
+    margin-top: -1rem
+
+.news__right__item
+    margin: 1rem
+    width: 44%
+    position: relative
+
+.news__right__img
+    max-width: 100%
+    height: auto
+
+.news__left__content
+    position: absolute
+    text-align: center
+    width: 100%
+    top: 45%
+    left: 0
+
+.news__left__content__title
+    color: #fff
+    font-size: 2rem
+    font-weight: 300
+
+.news__left__content__author
+    font-size: 0.73rem
+    weight: 300
+    text-transform: uppercase
+    letter-spacing: 1.32px
+    color: #cccccc
+    margin-top: 2rem
+    
+.news__left__author
+    color: #c89d28
+
+.news__right__content
+    color: $main-color
+    font-size: 1.2rem
+    font-weight: 300
+    line-height: 22px
+    margin-top: 1rem
+
+.news__main__btn
+    text-align: center
+    display: inline-block
+    min-width: 260px
+
+.news__footer
+    text-align: center
+    margin-top: 4rem
+
+@media(max-width: 1100px)
+
+    .news
+        padding: 6rem 0 6rem 0
+
+    .news__right
+        width: 53%
+
+    .news__right__content
+        font-size: 1rem
+
+    .news__left
+        width: 47%
+
+    .news__footer
+        margin-top: 0
+
+@media(max-width: 992px)
+    .news__left
+        width: 100%
+        text-align: center
+
+    .news__right
+        width: 100%
+        justify-content: center
+        margin-top: 2rem
+
+    .news__right__item
+        text-align: center
+
+    .news__btn
+        left: 20%
+
+    .news__right__img
+        display: block
+        margin: 0 auto
+
+@media(max-width: 576px)
+    .news__right__item
+        width: 100%
+
+    .news__left__content
+        top: 30%
+
+    .news__btn
+        left: 25%
+
+        

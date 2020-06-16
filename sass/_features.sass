@@ -1,0 +1,79 @@
+.features 
+    background-color: #fafafa
+    padding: 13.3rem 0
+    font-family: 'Ubuntu', sans-serif
+
+.features__inner
+    display: flex
+    flex-wrap: wrap
+
+.features__left 
+    width: 30%
+
+.features__left__title
+    font-size: 30px
+    font-weight: 300
+    margin-bottom: 1rem
+
+.features__left__text
+    font-weight: 300
+    line-height: 24px
+
+.bold 
+    font-weight: 500
+
+.features__right
+    width: 70%
+    display: flex
+    flex-wrap: wrap
+    
+.features__col
+    width: 50%
+
+.features__item
+    position: relative
+    margin-bottom: 3.5rem
+    margin-left: 6rem
+
+.features__item__img
+    float: left
+    position: absolute
+    top: 0
+    left: 0
+
+.features__item__title
+    font-size: 1.46rem
+    font-weight: 400
+    margin-bottom: 1.8rem
+    margin-left: 4.7rem
+
+.features__item__text
+    font-size: 0.93rem
+    font-weight: 300
+    line-height: 24px
+    margin-left: 4.7rem
+
+@media(max-width: 1232px)
+    .features__item
+        margin-left: 3rem
+
+@media(max-width: 991px)
+
+    .features
+        padding: 7rem 0 5rem 0
+
+    .features__left
+        text-align: center
+        margin-bottom: 4rem
+
+    .features__left,
+    .features__right
+        width: 100%    
+
+@media(max-width: 576px)
+    .features__col
+        width: 100%
+
+    .features__item
+        margin-left: 0
+

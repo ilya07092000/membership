@@ -1,0 +1,67 @@
+.perfect {
+  font-family: "Ubuntu", sans-serif; }
+
+.perfect__title {
+  margin-top: 6.3rem;
+  text-align: center;
+  color: #141311;
+  font-size: 2rem;
+  font-weight: 300; }
+
+.perfect__subtitle {
+  text-align: center;
+  margin-top: 2rem;
+  color: #333;
+  font-size: 0.93rem;
+  font-weight: 300;
+  line-height: 24px; }
+
+.perfect__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.8rem;
+  justify-content: center; }
+
+.perfect__item {
+  margin-right: 2.6rem;
+  width: 29.333%; }
+  .perfect__item:last-child {
+    margin-right: 0; }
+
+.perfect__item__img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.perfect__item__header {
+  margin: 2.4rem 0 0 2rem;
+  font-size: 22px;
+  font-weight: 300;
+  color: #333; }
+
+.perfect__item__text {
+  margin: 0.8rem 2rem; }
+
+@media(max-width: 992px) {
+  .perfect__title {
+    margin-top: 4.3rem; }
+
+  .perfect__item__header {
+    margin: 1.5rem 0 0 0; }
+
+  .perfect__item__text {
+    margin: 0.8rem 0rem; }
+
+  .perfect__item {
+    text-align: center; } }
+@media(max-width: 776px) {
+  .perfect__item {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    padding: 0 2rem; }
+
+  .perfect__item__img {
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=perfect.css.map */

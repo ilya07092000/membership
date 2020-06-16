@@ -1,0 +1,84 @@
+header
+    font-family: 'Ubuntu', sans-serif
+    height: 100vh
+    background-image: url('../img/header/header-bg.png') 
+    background-position: center 
+    background-size: cover
+    background-repeat: no-repeat
+
+.header__intro 
+    max-width: 650px
+    position: absolute
+    top: 40%
+    left: 12%
+    text-align: center
+
+.header__title 
+    color: #222222
+    font-size: 60px
+    font-weight: 300
+
+.header__btn 
+    padding: 1.6rem 6rem
+    margin-top: 4rem
+    background-color: #fff
+    text-decoration: none
+    color: $main-color
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    border-radius: 30px
+    transition: color .2s linear, background .2s linear
+    display: inline-block
+    &:hover
+        background-color: $main-color
+        color: #fff
+
+@media(max-width: 1400px) 
+
+    .header__title
+        font-size: 50px
+
+    .header__intro
+        left: 7%
+
+@media(max-width: 1232px)
+    .header__title
+        font-size: 40px 
+
+    .header__btn
+        padding: 1.5rem 5rem
+
+@media(max-width: 992px)
+    .header__intro
+        top: 35%
+
+    .header__btn
+        padding: 1.3rem 4rem
+        margin-top: 3rem
+
+@media(max-width: 771px) 
+    .header__title
+        font-size: 35px
+
+    .header__intro
+        left: 5%
+
+    .header__btn
+        margin-top: 1.5rem
+
+@media(max-width: 576px) 
+    .header__intro
+        max-width: 350px
+
+
+
+
+
+
+
+    
+
+
+
+    
